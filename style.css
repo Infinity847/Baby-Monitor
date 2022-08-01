@@ -1,0 +1,23 @@
+h1,h2,h3,h4,h5,h6,p,i,b {
+    color:white;
+    font-family:arial;
+}
+body {
+    background-color:lightgray;
+    text-align:center;
+}
+button  {
+color:white;
+background-color:lightblue;
+border-color:blue;
+border-radius:15px;
+}
+canvas {
+    border-radius:15px;
+    box-shadow: 10px 10px 10px black;
+}
+#sidebar {
+    border-radius:15px;
+    float:left;
+    background-color:gray;
+}

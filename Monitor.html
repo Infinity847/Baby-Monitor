@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Baby Monitoring App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<link href = "style.css" rel = "stylesheet">
+    </head>
+    <body>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.1/firebase-app.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+          
+            // Your web app's Firebase configuration
+            const firebaseConfig = {
+              apiKey: "AIzaSyD7Gk5AJgGS6zD51och3u27QWrPtOXP6wQ",
+              authDomain: "electriccoindb.firebaseapp.com",
+              databaseURL: "https://electriccoindb-default-rtdb.firebaseio.com",
+              projectId: "electriccoindb",
+              storageBucket: "electriccoindb.appspot.com",
+              messagingSenderId: "955511437622",
+              appId: "1:955511437622:web:574dd8d59917b5cb735b97"
+            };
+          
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+          </script>
+        <h1 id = "title">Loading...</h1><br>
+        <div id = "sidebar">
+            <h3>Control Panel</h3>
+            <input placeholder = "Password" id = "code">
+        <button onclick = "start()" id = "start">Loading...</button>
+    </div>
+        <script src =  "main.js"></script>
+    </body>
+</html>
